@@ -1,0 +1,61 @@
+body {
+	background-color: rgb(135, 110, 215);
+}
+
+.vertical-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+.container {
+    max-width: 68em;
+}
+
+.countdown-wrapper {
+	background-color: rgb(106, 72, 215);
+	margin: 0px 5px;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+.time-input {
+	background-color: rgb(65, 44, 132);
+	border-style: none;
+	color: white;
+	font-size: 72px;
+	margin-top: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.time-label {
+	color: white;
+}
+
+.time-controls,
+.timer-controls,
+.message
+ {
+	margin-top: 10px;
+}
+
+.btn-group {
+	margin: 0px 5px;
+}
+
+.timer-control-group {
+	margin-left: 15px;
+}
+
+.btn-time-control,
+.btn-timer-control {
+	font-size: 24px;
+	width: 50%
+}
+
+button:disabled:hover {
+    cursor: not-allowed;
+}

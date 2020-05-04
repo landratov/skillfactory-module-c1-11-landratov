@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Countdown timer</title>
+</head>
+<body class="text-center">
+	<div class="vertical-center">
+		<div class="container">
+			<h1>Countdown Clock</h1>
+			<div class="timer">
+				<div class="row justify-content-center">
+					<div class="col-2 countdown-wrapper">
+						<div class="form-group">
+							<input type="text" maxlength="2" id="minutes" value="00" class="time-input minutes">
+							<label for="minutes" class="time-label">Minutes</label>
+						</div>
+					</div>
+					<div class="col-2 countdown-wrapper">
+						<div class="form-group">
+							<input type="text" maxlength="2" id="seconds" value="00" class="time-input seconds">
+							<label for="seconds" class="time-label">Seconds</label>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center time-controls">
+					<div class="col-2 btn-group">
+						<button type="button" class="btn-success btn-time-control btn-plus-minutes">+</button>
+						<button type="button" class="btn-danger btn-time-control btn-minus-minutes">-</button>
+					</div>
+					<div class="col-2 btn-group">
+						<button type="button" class="btn-success btn-time-control btn-plus-seconds">+</button>
+						<button type="button" class="btn-danger btn-time-control btn-minus-seconds">-</button>
+					</div>
+				</div>
+				<div class="row justify-content-center timer-controls">
+					<div class="col-2 "></div>
+					<div class="col-2 btn-group timer-control-group">
+						<button type="button" class="btn-success btn-timer-control btn-start">Start</button>
+						<button type="button" disabled="true" class="btn-basic btn-timer-control btn-pause">Pause</button>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center message">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
