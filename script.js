@@ -111,9 +111,11 @@ pause.onclick = () => {
 }
 
 minutes.oninput = () => {
-	checkValue(minutes)
+	checkValue(minutes);
+	countMin = minutes.value;
 }
 
 seconds.oninput = () => {
-	checkValue(seconds)
+	checkValue(seconds);
+	countSec = seconds.value;
 }
